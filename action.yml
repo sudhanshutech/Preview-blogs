@@ -1,6 +1,10 @@
 name: Update Blog Post on Profile
 description: "Fetch and display the latest blog post on your GitHub profile."
 
+branding:
+  icon: "rss" 
+  color: "blue"  
+
 inputs:
   blog_url:
     description: "The URL of your blog post"
