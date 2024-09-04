@@ -1,0 +1,23 @@
+name: Update Blog Post on Profile
+description: "Fetch and display the latest blog post on your GitHub profile."
+
+inputs:
+  blog_url:
+    description: "The URL of your blog post"
+    required: true
+  image_url:
+    description: "The image URL for the blog post"
+    required: true
+  title:
+    description: "The title of the blog post"
+    required: true
+  publication_date:
+    description: "Publication date of the blog post"
+    required: true
+  description:
+    description: "A short description of the blog post"
+    required: true
+
+runs:
+  using: "node12"
+  main: "index.js"
